@@ -29,7 +29,7 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: my-artifact
-          path: hello
+          path: app
           retention-days: 3
   build_macos:
     runs-on: macos-12
@@ -44,5 +44,5 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: my-artifact
-          path: hello
+          path: app
           retention-days: 3
