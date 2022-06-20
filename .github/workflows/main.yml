@@ -31,8 +31,8 @@ jobs:
           name: my-artifact
           path: app_ubuntu
           retention-days: 3
-  build_macos:
-    runs-on: macos-12
+  build_win:
+    runs-on: windows-2022
     
     steps:
       - uses: actions/checkout@v3
